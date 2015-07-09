@@ -1,11 +1,11 @@
 'use strict';
 
 describe( "#boostrap", function() {
-  it("should instantiate your view and return the view object", function() {
+  it("should handle a click on the a tag by delegating to a handleClick function on your view", function() {
+    var spy = spyOn(MainView.prototype, "handleClick")
     bootstrap();
-    expect($("body")).toContainHtml('<form><label for="name"></label><input id="name" type="text" name="name"><input id= "mySubmit" type="submit" value="submit"></form>');
-    $("#name").val("blake")
-    $("#mySubmit").click()
-    expect(app.formView.model.get("name")).toEqual("blake")
+    expect($("body")).toContainHtml('<a href="/whatever">to the internet</a>');
+    $("a").click()
+    expect(spy).toHaveBeenCalled();
   });    
 });
