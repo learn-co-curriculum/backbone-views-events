@@ -1,0 +1,13 @@
+tags:
+  framework:
+    - backbone.js
+
+  library:
+    - jquery
+    - jasmine-jquery
+    - underscore
+
+  assignment type:
+    - lab
+
+  resources: 0
