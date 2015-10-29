@@ -6,7 +6,7 @@
 * Resources
 
 ## About
-One of the jobs of Backbone views is to respond to events or user interaction.  So the view is responsible for a section of the user interface, and any user interaction that happens in that region should be handled by the view. Its job is to listen for events and then call a function to update the model with any changes. Backbone works seamlesly with jQuery to add and remove listeners to the section of the DOM that it manages. The listeners are actually attached to the `el` property of the view, or the root element of the view. 
+One of the jobs of Backbone views which we have not yet discussed is responding to events or user interactions.  Each view is responsible for a section of the user interface; any user interaction that happens in that region should be handled by that view. Its job is to listen for specified events and then call a function built to update the related model with any changes. Backbone works seamlesly with jQuery to add and remove listeners to the section of the DOM that it manages. The listeners are actually attached to the `el` property of the view, or the root element of the view. 
 
 ## Example
 The events property of the view object looks like this:
