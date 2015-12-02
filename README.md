@@ -46,3 +46,4 @@ In this lab you are going to add some HTML to the page using a Backbone view.  W
 
 ## Resources
 * [Delegating Events in Backbone](http://backbonejs.org/#View-delegateEvents)
+<a href='https://learn.co/lessons/backbone-views-events' data-visibility='hidden'>View this lesson on Learn.co</a>
